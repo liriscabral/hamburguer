@@ -1,12 +1,10 @@
 import React from 'react';
-import Hamburguer from './Components/hamburguerMenu/Hamburguer';
-import "./Components/hamburguerMenu/Hamburguer.css";
+import Menu from './Components/Menu/Menu';
 
 function App() {
   return (
     <div className="App">
-      App
-      <Hamburguer/>
+      <Menu/>
     </div>
   );
 }
