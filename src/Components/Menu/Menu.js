@@ -13,7 +13,7 @@ const Menu = () => {
                     <ul>
                         <li>Home</li>
                         <li>Sobre nós</li>
-                        <li>Entre em Contato Conosco</li>
+                        <li>Entre em Contato</li>
                         <li>Redes Sociais</li>
                     </ul>
                 </div>
