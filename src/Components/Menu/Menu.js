@@ -1,3 +1,4 @@
+import PropsFileira from '../PropsMenu/PropsFileira';
 import './Menu.css';
 import { Fragment } from 'react';
 
@@ -5,18 +6,19 @@ const Menu = () => {
 
     return (
         <Fragment>
-            <div className="menu">
-                <div className="logo">
-                    Menu
-                </div>
-                <div className="menu-direito">
-                    <ul>
-                        <li>Home</li>
-                        <li>Sobre nós</li>
-                        <li>Entre em Contato</li>
-                        <li>Redes Sociais</li>
-                    </ul>
-                </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <PropsFileira fileira="Home"/>
+                    <PropsFileira fileira="Sobre a Empresa"/>
+                    <PropsFileira fileira="Entre em Contato"/>
+                    <PropsFileira fileira="Colaboradores"/>
+                    <PropsFileira fileira="Redes Sociais"/>
+                </ul>
             </div>
         </Fragment>
     );
